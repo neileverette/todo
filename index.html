@@ -2,26 +2,22 @@
 	<html>
 	<head>
 		<meta charset = "utf-8" />
-		<title>Sample HTML Page</title>
+		<title>To Do List</title>
 		<script type = "text/javascript" src = "jquery-1.9.1.js"></script>
 		<script type = "text/javascript" src = "script.js"></script>
 		<link rel="stylesheet" href="style.css" />
 		
 	</head>
+
 	<body>
-		<p class = "Normal">Paragraph One</p>
-		<p class = "Normal">Paragraph Two</p>
-		<p id = "paragraph3">Paragraph Three</p>
-		<p class = "Normal">Paragraph Four</p>
-		<p>Paragraph Five</p>
-		
-		
-		<ul id = "myList" class = "list">
-			<li class = "Normal">This is a list item</li>
-			<li>This is a list item</li>
-			<li>This is a list item</li>
-			<li>This is a list item</li>
-			<li>This is a list item</li>
+		<h2>To Do</h2>
+		<form name="checkListForm">
+			<input id = "toAdd" type="text" name="checkListItem"/>
+		</form>
+		<div id="button">Add!</div>
+		<br/>
+		<div class="list"></div>
+	</body>
 			
 	</body>
 	</html> 
